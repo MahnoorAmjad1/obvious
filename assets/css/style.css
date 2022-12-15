@@ -1,0 +1,697 @@
+@font-face {
+    src: url(../font/Obviously-Wide-Bold.ttf);
+    font-family: "bold";
+}
+
+@font-face {
+
+    src: url(../font/Obviously-Regular.ttf);
+    font-family: "regular";
+}
+
+@font-face {
+
+    src: url(../font/Obviously-Semibold.ttf);
+    font-family: "semibold";
+}
+@font-face {
+
+    src: url(../font/Obviously-Narrow-Medium.ttf);
+    font-family: "narrow";
+}
+
+/* nav section */
+header {
+    background-color: #E50062;
+
+}
+
+nav ul li a {
+    font-family: "regular";
+    font-style: normal;
+    font-weight: 540;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+/* hero section */
+.hero-section {
+    background-image: url('../images/main\ pic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px;
+
+}
+
+.hero-section .pic {
+    position: relative;
+    z-index: 22;
+}
+
+.hero-section .pic a img {
+    position: fixed;
+    left: 78%;
+
+}
+
+.hero-section p {
+    font-family: "regular";
+    font-style: normal;
+    font-weight: 650;
+    font-size: 14px;
+    color: #000000;
+
+}
+
+.hero-section h1 {
+    font-family: "bold";
+    font-style: normal;
+    font-size: 76px;
+    line-height: 50px;
+    color: #E50062;
+}
+
+.hero-section h1 span {
+    font-size: 51px;
+}
+
+.hero-section h2 {
+    font-family: "bold";
+    font-style: normal;
+    font-size: 63.0199px;
+    display: flex;
+    color: #E50062;
+}
+
+.hero-section h2 sub {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section .rs {
+    position: relative;
+    margin-bottom: -20px;
+}
+
+.hero-section .mes {
+    text-transform: uppercase;
+    position: relative;
+    margin-top: -12px;
+    margin-bottom: 20px;
+}
+
+.hero-section a {
+    background: #E50062;
+    border-radius: 17.9883px;
+    width: 29%;
+    font-family: "regular";
+    font-weight: 670;
+    font-size: 13.2653px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero-section .button:hover{
+background-color:#e1689d;
+}
+/* consult section */
+.consult-section {
+
+    text-align: center;
+    padding: 29px;
+    background-color: #EFEFEF;
+    align-items: center;
+}
+
+
+
+.consult-section h1 {
+    font-family: "regular";
+    font-style: italic;
+    font-weight: 360;
+    font-size: 38.1602px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E50062;
+}
+
+.consult-section button {
+    background: #E50062;
+    border-radius: 20.552px;
+    width: 100%;
+    font-family: "semibold";
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.consult-section button:hover {
+    background-color: #D9D9D9;
+    color: #000000;
+}
+
+.consult-section h4 {
+    font-family: 'regular';
+    font-style: normal;
+    font-weight: 540;
+    font-size: 11px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.consult-section .cb {
+    text-align: left;
+    font-family: 'regular';
+    font-style: normal;
+    font-weight: 540;
+    font-size: 11px;
+    color: #000000;
+}
+
+/* planos section */
+.planos-section {
+    background-color: #000000;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.planos-section .card1 {
+    max-width: 373px;
+    min-height: 590px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10.3443px rgba(0, 0, 0, 0.25);
+    border-radius: 20.6887px;
+    padding: 8px;
+    background: #FFFFFF;
+    border: 4px solid #E50062;
+    border-radius: 19.0801px;
+
+}
+
+.planos-section .card2 {
+    background: #FFFFFF;
+    border-radius: 19.0801px;
+    max-width: 373px;
+    min-height: 590px;
+
+}
+
+.planos-section .img1 {
+    width: 120px;
+    position: relative;
+    left: -33%;
+    top: -2%;
+}
+
+.planos-section h1 {
+    font-family: "regular";
+    font-style: italic;
+    font-weight: 360;
+    font-size: 40px;
+    line-height: 57px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.planos-section .card1 .h1 {
+    font-family: "bold";
+    font-style: normal;
+    font-weight: 670;
+    font-size: 88.0031px;
+    /* line-height: 100%; */
+    color: #E50062;
+}
+
+.planos-section h1 span {
+    font-size: 60px;
+}
+
+.planos-section .p1 {
+    margin-top: -96px;
+    font-family: "regular";
+    font-style: normal;
+    font-weight: 240;
+    font-size: 17.1721px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+
+}
+.planos-section .p1 span{
+    font-family: "semibold";
+}
+.planos-section h3 {
+    font-family: "regular";
+    /* font-style: normal; */
+    font-weight: 940;
+    font-size: 11.4481px;
+    line-height: 100%;
+    color: #E50062;
+    margin-left: 40%;
+
+}
+.planos-section .button:hover{
+    background-color: #000000;
+    color: #D9D9D9;
+}
+.planos-section .card2 h3 {
+    margin-left: 60%;
+}
+
+.planos-section .card2 .h1 {
+    font-family: "bold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 88.0031px;
+    line-height: 70%;
+    text-align: center;
+    color: #E50062;
+    margin-top: 19px;
+}
+
+.planos-section .card2 .h1 span {
+    margin-top: 40px;
+    /* padding: 0px; */
+}
+
+.planos-section .p2 {
+    font-family: "regular";
+    font-style: normal;
+    font-weight: 640;
+    font-size: 19.0801px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.planos-section .list1 {
+    background-color: #EFEFEF;
+    margin-left: -7px;
+    margin-right: -5px;
+    padding: 10px;
+}
+
+.planos-section .list2 {
+    background-color: #EFEFEF;
+    margin-left: -17px;
+    margin-right: -18px;
+    margin-top: 29px;
+    padding: 10px;
+}
+
+.planos-section ul li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.planos-section a {
+    background: #E50062;
+    border-radius: 20.552px;
+    width: 100%;
+    font-family: "semibold";
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.planos-section h2,
+.sub1 {
+    font-family: "regular";
+    font-style: normal;
+    font-weight: 670;
+    font-size: 66.7804px;
+    color: #E50062;
+}
+
+.planos-section .sub {
+    position: relative;
+}
+
+.planos-section .sub1 {
+    font-size: 11.4481px;
+    position: absolute;
+    left: 39px;
+    top: 25px;
+}
+
+.planos-section .card2 .sub1 {
+    font-size: 11.4481px;
+    position: absolute;
+    left: 10px;
+    top: 25px;
+}
+
+/* cards section */
+.cards-section {
+
+    background-color: #EFEFEF;
+    padding: 50px;
+    text-align: center;
+}
+
+.cards-section img {
+    min-height: 111px;
+    max-width: 111px;
+    margin-left: 27%;
+
+}
+
+.cards-section .card1 p {
+
+    margin-top: 15%;
+}
+
+.cards-section .card3 p {
+    margin-top: 8%;
+}
+
+.cards-section .card4 p {
+    margin-top: 14%;
+}
+
+.cards-section .img4 {
+    margin-left: 20%;
+}
+
+.cards-section .card p {
+    padding: 8px;
+}
+
+.cards-section .card {
+    max-width: 288px;
+    min-height: 268px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10.3443px rgba(0, 0, 0, 0.25);
+    border-radius: 20.6887px;
+    padding: 8px;
+}
+
+.cards-section button {
+
+    border: 1.90801px solid #D9D9D9;
+    font-family: "regular";
+    width: 18%;
+    font-size: 19.0801px;
+    text-align: center;
+    color: #000000;
+    align-items: center;
+}
+
+.cards-section button:hover {
+    background-color: #E50062;
+    color: #D9D9D9;
+}
+
+.cards-section h1 {
+    font-family: "regular";
+    font-style: italic;
+    padding-top: 14px;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000
+}
+
+.cards-section p {
+    font-family: "regular";
+    padding-top: 20px;
+    font-size: 15.2641px;
+    text-align: center;
+    color: #000000;
+}
+
+/* obivious section */
+.obivious-section {
+
+    background-color: #F5F5F5;
+    padding: 70px;
+    text-align: center;
+}
+
+.obivious-section h1 {
+    font-family: "narrow";
+    font-style: italic;
+    font-weight: 360;
+    font-size: 38.1602px;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+
+.obivious-section .pics {
+    padding-top: 39px;
+}
+
+/* frequenties section */
+.frequenties-section {
+    background-color: #EFEFEF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.frequenties-section h1 {
+    font-family: "narrow";
+    font-style: italic;
+    font-size: 38.1602px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #E50062;
+    text-align: center;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.frequenties-section .card {
+    background: #FFFFFF;
+    border-left: 2px solid #E50062;
+    /* padding: 20px; */
+    margin-top: 20px;
+}
+
+.frequenties-section h2 button {
+    font-family: "regular";
+    font-size: 13.3561px;
+    color: #000000;
+}
+
+.frequenties-section h2 button:hover {
+    text-decoration: none;
+    color: black;
+    border: #D9D9D9;
+}
+
+/* footer */
+footer {
+
+    background-color: #E50062;
+    padding: 50px;
+    text-align: center;
+    font-family: "regular";
+    color: #FFFFFF;
+}
+
+footer h1 {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+footer h5 {
+    font-size: 12px;
+    line-height: 19px;
+}
+
+footer ul li {
+    display: inline;
+}
+
+@media screen and (max-width:992px) {
+
+    /* nav section */
+    header .navbar-collapse {
+        position: absolute;
+        top: 100%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: black;
+    }
+
+    header .navbar-nav {
+        position: absolute;
+    }
+
+    /* hero section */
+   
+    .hero-section a {
+
+        width: 70%;
+      
+    }
+    /* planos section */
+    .planos-section .sub1 {
+
+        left: 27px;
+        top: 25px;
+    }
+
+    .planos-section .card2 .sub1 {
+
+        left: -14px;
+        top: 25px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+  
+
+    /* planos section */
+    .planos-section .p2,
+    .p3 {
+        font-size: 17px;
+    }
+
+    .planos-section .img1 {
+        left: -32%;
+    }
+
+    .planos-section .sub1 {
+
+        left: 27px;
+        top: 25px;
+    }
+
+    .planos-section .card2 .sub1 {
+
+        left: -14px;
+        top: 25px;
+    }
+
+    /* cards section */
+    .cards-section a button {
+        
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    /* hero section */
+    .hero-section h1 {
+        font-size: 36px;
+        line-height: 70%;
+    }
+
+    .hero-section h1 span {
+        font-size: 24px;
+    }
+
+    .hero-section h2 {
+        font-size: 33px;
+    }
+
+    .hero-section h2 sub {
+        font-size: 20px;
+    }
+
+    .hero-section a {
+
+        width: 70%;
+        font-size: 9px;
+    }
+
+    .hero-section .rs {
+        /* position: relative; */
+        margin-bottom: -9px;
+    }
+
+    .hero-section .mes {
+
+        margin-top: -12px;
+        margin-bottom: 20px;
+    }
+
+
+    /* consult section */
+    .consult-section button {
+        font-size: 10px;
+    }
+
+    .consult-section h1 {
+        font-size: 18px;
+    }
+
+    /* planos section */
+    .planos-section h1 {
+        font-size: 20px;
+    }
+
+    .planos-section .img1 {
+
+        left: -38%;
+        width: 30%;
+    }
+
+    .planos-section .p2,
+    .p3 {
+        font-size: 14px;
+    }
+
+    .planos-section .sub1 {
+
+        left: 28px;
+        top: 25px;
+    }
+
+    .planos-section .card2 .sub1 {
+
+        left: -13px;
+        top: 25px;
+    }
+
+    .planos-section
+
+    /* cards section */
+    .cards-section h1 {
+        font-size: 10px;
+    }
+
+    .cards-section a button {
+        font-size: 15px;
+        width: 50%;
+    }
+
+    .cards-section img {
+        /* min-height: 111px;
+        max-width: 111px; */
+        margin-left: 32%;
+
+    }
+
+    .cards-section .img4 {
+        margin-left: 26%;
+    }
+
+    /* obivious section */
+    .obivious-section h1 {
+        font-size: 28px;
+    }
+
+    /* frequenties section */
+    .frequenties-section h1 {
+        font-size: 28px;
+    }
+}
